@@ -1,0 +1,22 @@
+{
+  "name": "yedstokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "token-transformer tokens.json output.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixJanemalm/yedstokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixJanemalm/yedstokens/issues"
+  },
+  "homepage": "https://github.com/FelixJanemalm/yedstokens#readme",
+  "dependencies": {
+    "token-transformer": "^0.0.19"
+  }
+}
