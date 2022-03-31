@@ -1,16 +1,28 @@
-# yedstokens
-If you don't have npm, install it through nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
+# Style Dictionary Complete Example
 
-Check that npm works by running `npm -v`
+This starter project has everything you need to get started. 
 
-To install project:
+## How it works
+
+All of the design tokens and assets are in this package. Make any changes to suit your needs. This package has iOS, Android, and web code.
+
+To get started, run
 ```
-npm install
+$ npm install
+$ npm run build
 ```
 
-To run:
+The npm build task is what performs the style dictionary build steps to generate the files for each platform. Every time you change something in the style dictionary, like changing colors or adding design tokens, you will have to run this command again to generate the files.
+
+
+
+
+Clean up figma export - takes tokens.json and creates output.json:
 ```
 npm run transform
 ```
 
-That will take in tokens.json and create output.json
+Transforms output.json into css and scss:
+````
+style-dictionary build
+```
