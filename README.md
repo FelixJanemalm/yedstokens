@@ -9,7 +9,7 @@ Step 2. clean up figma export. Uses tokens.json and creates output.json:
 npm run transform
 ```
 
-Step 3. Transforms output.json into css and scss:
+Step 3. Transforms output.json into css, scss etc.(based on settings in config.json):
 ```
 style-dictionary build
 ```
