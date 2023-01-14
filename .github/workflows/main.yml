@@ -8,7 +8,7 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://api.jsonbin.io/v3/b/63b6e19301a72b59f242167e/latest
-          configuration: '{ "method": "GET", "headers": {"X-Master-key": "$2b$10$qmY5TM1mlyEMHs.w1r/xl.FYsK7vRkKmkRKcx4djPq2BBMTYiwEgu"} }'
+          configuration: '{ "method": "GET", "headers": {"X-Master-key": "${{ secrets.GITHUB_TOKEN }}"} }'
           
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
