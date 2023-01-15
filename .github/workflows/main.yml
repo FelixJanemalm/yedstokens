@@ -14,7 +14,7 @@ jobs:
         with:
           endpoint: https://api.jsonbin.io/v3/b/63b6e19301a72b59f242167e/latest
           configuration: '{ "method": "GET", "headers": {"X-Master-key": "${{ secrets.API_TOKEN}}"} }'
-          save-name: tokens.json
+          save-name: tokens
 
           
       - name: Build and Deploy 🚀
