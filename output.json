@@ -1,0 +1,360 @@
+{
+  "half-x": {
+    "value": 4,
+    "type": "spacing"
+  },
+  "1-x": {
+    "value": 8,
+    "type": "spacing"
+  },
+  "2-x": {
+    "value": 16,
+    "type": "spacing"
+  },
+  "3-x": {
+    "value": 24,
+    "type": "spacing"
+  },
+  "4-x": {
+    "value": 32,
+    "type": "spacing"
+  },
+  "5-x": {
+    "value": 40,
+    "type": "spacing"
+  },
+  "6-x": {
+    "value": 48,
+    "type": "spacing"
+  },
+  "7-x": {
+    "value": 56,
+    "type": "spacing"
+  },
+  "8-x": {
+    "value": 64,
+    "type": "spacing"
+  },
+  "9-x": {
+    "value": 72,
+    "type": "spacing"
+  },
+  "Neutral": {
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "neutral0": {
+      "value": "#f9fafb",
+      "type": "color"
+    },
+    "neutral1": {
+      "value": "#edf0f2",
+      "type": "color"
+    },
+    "neutral2": {
+      "value": "#d8d8d8",
+      "type": "color"
+    },
+    "neutral3": {
+      "value": "#939393",
+      "type": "color"
+    },
+    "neutral4": {
+      "value": "#4a4a4a",
+      "type": "color"
+    }
+  },
+  "Primary": {
+    "primary10": {
+      "value": "#f1f7e6",
+      "type": "color"
+    },
+    "primary70": {
+      "value": "#a0c44d",
+      "type": "color"
+    },
+    "primary100": {
+      "value": "#77aa00",
+      "type": "color",
+      "description": "Dark variant of our brand color that is accessible with white\n\nUsage\nPrimary Buttons, Selected States, Success\n\nRelated design tokens:\n$brand-accessible\n$color-button-primary\n$color-border-selection\n\n\nBackground\nFor a long time we used #9ACA3C which was the old conversion of the Pantone brand color. This is an alternative color, approximately 10% darker, created for our enterprise applications for higher contrast when used with white."
+    },
+    "primary120": {
+      "value": "#5f8800",
+      "type": "color"
+    }
+  },
+  "Secondary": {
+    "secondary50": {
+      "value": "#80b9d2",
+      "type": "color"
+    },
+    "secondary100": {
+      "value": "#0073a5",
+      "type": "color"
+    },
+    "secondary140": {
+      "value": "#004563",
+      "type": "color"
+    }
+  },
+  "Error": {
+    "error80": {
+      "value": "#d45971",
+      "type": "color"
+    },
+    "error100": {
+      "value": "#c92f4e",
+      "type": "color"
+    },
+    "error120": {
+      "value": "#a1263e",
+      "type": "color"
+    }
+  },
+  "Warning": {
+    "warning80": {
+      "value": "#b99d33",
+      "type": "color"
+    },
+    "warning100": {
+      "value": "#a78500",
+      "type": "color"
+    },
+    "warning120": {
+      "value": "#866a00",
+      "type": "color"
+    }
+  },
+  "Design reference": {
+    "Spacers": {
+      "value": "#ff00b24d",
+      "type": "color"
+    }
+  },
+  "Focus - Input fields": {
+    "value": {
+      "color": "#9aca3c99",
+      "type": "dropShadow",
+      "x": 0,
+      "y": 0,
+      "blur": 8,
+      "spread": 0
+    },
+    "type": "boxShadow",
+    "description": "Yubico green focus color on input fields. Should be combined with Yubico green border color."
+  },
+  "fontFamilies": {
+    "helvetica-neue": {
+      "value": "Helvetica Neue",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "value": 48,
+      "type": "lineHeights"
+    },
+    "1": {
+      "value": 32,
+      "type": "lineHeights"
+    },
+    "2": {
+      "value": 28,
+      "type": "lineHeights"
+    },
+    "3": {
+      "value": 24,
+      "type": "lineHeights"
+    },
+    "4": {
+      "value": 16,
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "helvetica-neue-0": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "helvetica-neue-1": {
+      "value": "65 Medium",
+      "type": "fontWeights"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "value": 12,
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": 14.4,
+      "type": "fontSizes"
+    },
+    "2": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "3": {
+      "value": 18,
+      "type": "fontSizes"
+    },
+    "4": {
+      "value": 24,
+      "type": "fontSizes"
+    },
+    "5": {
+      "value": 28,
+      "type": "fontSizes"
+    },
+    "6": {
+      "value": 40,
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": 0,
+      "type": "letterSpacing"
+    },
+    "1": {
+      "value": 0.05,
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing"
+    }
+  },
+  "Heading large": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 48,
+      "fontSize": 40,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Heading medium": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 32,
+      "fontSize": 28,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Heading small": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 28,
+      "fontSize": 24,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Heading label": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 24,
+      "fontSize": 18,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Body default": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 24,
+      "fontSize": 16,
+      "letterSpacing": 0.05,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Body small": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 16,
+      "fontSize": 14.4,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Body small 500": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "65 Medium",
+      "lineHeight": 16,
+      "fontSize": 14.4,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Mini": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "Regular",
+      "lineHeight": 16,
+      "fontSize": 12,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Mini 500": {
+    "value": {
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "65 Medium",
+      "lineHeight": 16,
+      "fontSize": 12,
+      "letterSpacing": 0,
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "textCase": {
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  }
+} 

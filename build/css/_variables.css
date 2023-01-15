@@ -1,0 +1,67 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 31 Mar 2022 11:44:17 GMT
+ */
+
+:root {
+  --half-x: 4;
+  --1-x: 8;
+  --2-x: 16;
+  --3-x: 24;
+  --4-x: 32;
+  --5-x: 40;
+  --6-x: 48;
+  --7-x: 56;
+  --8-x: 64;
+  --9-x: 72;
+  --neutral-white: #ffffff;
+  --neutral-neutral0: #f9fafb;
+  --neutral-neutral1: #edf0f2;
+  --neutral-neutral2: #d8d8d8;
+  --neutral-neutral3: #939393;
+  --neutral-neutral4: #4a4a4a;
+  --primary-primary10: #f1f7e6;
+  --primary-primary70: #a0c44d;
+  --primary-primary100: #77aa00;
+  --primary-primary120: #5f8800;
+  --secondary-secondary50: #80b9d2;
+  --secondary-secondary100: #0073a5;
+  --secondary-secondary140: #004563;
+  --error-error80: #d45971;
+  --error-error100: #c92f4e;
+  --error-error120: #a1263e;
+  --warning-warning80: #b99d33;
+  --warning-warning100: #a78500;
+  --warning-warning120: #866a00;
+  --design-reference-spacers: #ff00b24d;
+  --focus-input-fields: [object Object];
+  --font-families-helvetica-neue: Helvetica Neue;
+  --line-heights-0: 48;
+  --line-heights-1: 32;
+  --line-heights-2: 28;
+  --line-heights-3: 24;
+  --line-heights-4: 16;
+  --font-weights-helvetica-neue-0: Regular;
+  --font-weights-helvetica-neue-1: 65 Medium;
+  --font-size-0: 12;
+  --font-size-1: 14.4;
+  --font-size-2: 16;
+  --font-size-3: 18;
+  --font-size-4: 24;
+  --font-size-5: 28;
+  --font-size-6: 40;
+  --letter-spacing-0: 0;
+  --letter-spacing-1: 0.05;
+  --paragraph-spacing-0: 0;
+  --heading-large: [object Object];
+  --heading-medium: [object Object];
+  --heading-small: [object Object];
+  --heading-label: [object Object];
+  --body-default: [object Object];
+  --body-small: [object Object];
+  --body-small-500: [object Object];
+  --mini: [object Object];
+  --mini-500: [object Object];
+  --text-case-none: none;
+  --text-decoration-none: none;
+}
