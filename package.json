@@ -4,7 +4,7 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "prebuild": "token-transformer data/input.json output.json",
+    "prebuild": "token-transformer input.json output.json",
     "build": "style-dictionary build",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"

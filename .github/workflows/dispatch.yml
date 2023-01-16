@@ -1,17 +1,19 @@
 name: Fetch tokens
-on: [push]
+on: [workflow_dispatch]
 jobs:
   refresh-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Fetch API Data 📦
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://api.jsonbin.io/v3/b/63b6e19301a72b59f242167e/latest
           configuration: '{ "method": "GET", "headers": {"X-Master-key": "${{ secrets.API_TOKEN}}"} }'
           save-name: input
+      - name: Cleanup data
+        run: jq '.record.values' < fetch-api-data-action/input.json > input.json
       - name: Install node
         uses: actions/setup-node@v3
         with:
@@ -20,4 +22,12 @@ jobs:
         run: npm install
       - name: Transform design tokens
         run: npm run build
-
+      - name: Create PR 
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Tokens updated
+          title: Design tokens updated
+          body: Design tokens have been updated via Figma and need to be reviewed
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          BRANCH_NAME: main
