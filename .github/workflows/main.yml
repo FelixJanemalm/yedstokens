@@ -32,5 +32,5 @@ jobs:
           node-version: 16
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens
-        run: 'npm i && npm run node token-transformer data/input.json output.json Ref,sys-default-light,sys-default-dark,sys-type-large_gt1920,sys-type-medium_gt1024,sys-type-small,usage-colors,usage-type'
+        run: 'npm i && node token-transformer data/input.json output.json Ref,sys-default-light,sys-default-dark,sys-type-large_gt1920,sys-type-medium_gt1024,sys-type-small,usage-colors,usage-type'
 
