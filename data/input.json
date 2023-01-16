@@ -1404,12 +1404,12 @@
           "link-text--pressed": {
             "value": "#004461",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.info.strong}"
+            "description": "Intended to be generated programatically"
           },
           "link-text--hover": {
             "value": "#1e92c5",
             "type": "color",
-            "description": "intended to be generated programatically {yds.sys.colors.info.medium}"
+            "description": "intended to be generated programatically"
           },
           "onPrimary-text": {
             "value": "{yds.sys.colors.neutral.0}",
@@ -1524,12 +1524,12 @@
           "primary--hover": {
             "value": "#699700",
             "type": "color",
-            "description": "Supposed to be programatically generated ({yds.ref.colors.lime.700})"
+            "description": "Supposed to be programatically generated"
           },
           "primary-btn--pressed": {
             "value": "#314600",
             "type": "color",
-            "description": "Supposed to be programatically generated {yds.ref.colors.lime.900}"
+            "description": "Supposed to be programatically generated"
           },
           "secondary-btn": {
             "value": "{yds.sys.colors.secondary.default}",
@@ -1543,7 +1543,7 @@
           "secondary-btn--pressed": {
             "value": "#004461",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.secondary.strong}"
+            "description": "Intended to be generated programatically"
           },
           "danger-btn": {
             "value": "{yds.sys.colors.danger.default}",
@@ -1552,12 +1552,12 @@
           "danger-btn--hover": {
             "value": "#d7647b",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.danger.medium}"
+            "description": "Intended to be generated programatically"
           },
           "danger-btn--pressed": {
             "value": "#84001b",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.danger.strong}"
+            "description": "Intended to be generated programatically"
           },
           "warning-btn": {
             "value": "{yds.sys.colors.warning.default}",
@@ -1566,12 +1566,12 @@
           "warning-btn--hover": {
             "value": "#c09c0c",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.warning.medium}"
+            "description": "Intended to be generated programatically "
           },
           "warning-btn--pressed": {
             "value": "#846900",
             "type": "color",
-            "description": "Intended to be generated programatically {yds.sys.colors.warning.strong}"
+            "description": "Intended to be generated programatically"
           },
           "onPrimary-btn": {
             "value": "{yds.ref.colors.neutral.white}",
