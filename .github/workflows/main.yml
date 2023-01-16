@@ -12,7 +12,7 @@ jobs:
           endpoint: https://api.jsonbin.io/v3/b/63b6e19301a72b59f242167e/latest
           configuration: '{ "method": "GET", "headers": {"X-Master-key": "${{ secrets.API_TOKEN}}"} }'
           save-name: input
-       - name: Install node
+      - name: Install node
         uses: actions/setup-node@v3
         with:
           node-version: 16
