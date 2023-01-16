@@ -14,7 +14,7 @@ jobs:
         with:
           endpoint: https://api.jsonbin.io/v3/b/63b6e19301a72b59f242167e/latest
           configuration: '{ "method": "GET", "headers": {"X-Master-key": "${{ secrets.API_TOKEN}}"} }'
-          save-name: tokens
+          save-name: input
 
           
       - name: Build and Deploy 🚀
@@ -24,8 +24,14 @@ jobs:
           folder: fetch-api-data-action # The location of the data.json file saved by the Fetch API Data action.
           target-folder: data # Saves the data into the 'data' directory on the main branch.
       
+ 
+      # we now initialize node to run amazon style dictionary to compile the tokens
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          # we use version 14.x of node
+          node-version: 14.x
+      # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
+      - name: Transform design tokens 
+        run: 'npm i && npm run node token-transformer data/input.json output.json Ref,sys-default-light,sys-default-dark,sys-type-large_gt1920,sys-type-medium_gt1024,sys-type-small,usage-colors,usage-type'
 
-      - name: Install 🔧
-        run: |
-          npm run transform
-          style-dictionary build
