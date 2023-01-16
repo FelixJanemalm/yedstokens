@@ -4,13 +4,15 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "build": "node_modules/.bin/style-dictionary build",
+    "prebuild": "token-transformer data/input.json output.json Ref,sys-default-light,sys-default-dark,sys-type-large_gt1920,sys-type-medium_gt1024,sys-type-small,usage-colors,usage-type",
+    "build": "style-dictionary build",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "latest"
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.29"
   }
 }
