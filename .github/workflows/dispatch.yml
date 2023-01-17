@@ -1,4 +1,4 @@
-name: Fetch tokens
+name: Fetch tokens, build, and create pr
 on: [workflow_dispatch]
 jobs:
   refresh-feed:
