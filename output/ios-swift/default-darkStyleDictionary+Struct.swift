@@ -4,43 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 17 Jan 2023 15:30:36 GMT
+// Generated on Tue, 17 Jan 2023 15:43:24 GMT
 
 
 import UIKit
 
 internal struct StyleDictionaryStruct {
-    internal static let base = 8
-    internal static let fontFamiliesCode = Noto Sans Mono
-    internal static let fontFamiliesDefault = Noto Sans
-    internal static let fontSizesBody = 16
-    internal static let fontSizesHLg = 40
-    internal static let fontSizesHMd = 32
-    internal static let fontSizesHSm = 24
-    internal static let fontSizesLabel = 18
-    internal static let fontSizesSm = 14.4
-    internal static let fontSizesXs = 12
-    internal static let fontWeightsBodyBold = 700
-    internal static let fontWeightsBodyItalic = Italic
-    internal static let fontWeightsBodyMedium = 500
-    internal static let fontWeightsBodyRegular = 400
-    internal static let fontWeightsHeadingBold = 700
-    internal static let fontWeightsHeadingRegular = 400
-    internal static let letterSpacingDecreased = -0.48
-    internal static let letterSpacingDefault = 0
-    internal static let letterSpacingIncreased = 0.096
-    internal static let letterSpacingParagraph = 0.12
-    internal static let lineHeightsBody = 24
-    internal static let lineHeightsHLg = 48
-    internal static let lineHeightsHMd = 40
-    internal static let lineHeightsHSm = 32
-    internal static let lineHeightsLabel = 24
-    internal static let lineHeightsSm = 16
-    internal static let paragraphSpacingHLg = 24
-    internal static let paragraphSpacingHMd = 16
-    internal static let rem = 16
-    internal static let ydsAside = [object Object]
-    internal static let ydsAsideMedium = [object Object]
     internal static let ydsBackgroundBg = #222222
     internal static let ydsBackgroundBgDisabled = #4A4A4A
     internal static let ydsBackgroundBgMedium = #333333
@@ -90,18 +59,7 @@ internal struct StyleDictionaryStruct {
     internal static let ydsButtonWarningBtn = #ceb140
     internal static let ydsButtonWarningBtnHover = #c09c0c
     internal static let ydsButtonWarningBtnPressed = #846900
-    internal static let ydsCode = [object Object]
-    internal static let ydsContent = [object Object]
-    internal static let ydsContentBold = [object Object]
-    internal static let ydsContentItalic = [object Object]
     internal static let ydsDesignHotPink30 = #ff00b24d
-    internal static let ydsFootnote = [object Object]
-    internal static let ydsFootnoteMedium = [object Object]
-    internal static let ydsHeadingLg = [object Object]
-    internal static let ydsHeadingLgBold = [object Object]
-    internal static let ydsHeadingMd = [object Object]
-    internal static let ydsHeadingMdBold = [object Object]
-    internal static let ydsHeadingSm = [object Object]
     internal static let ydsIconDangerIcon = #e08698
     internal static let ydsIconIcon = #bebebe
     internal static let ydsIconIconDisabled = #6d6d6d
@@ -116,11 +74,6 @@ internal struct StyleDictionaryStruct {
     internal static let ydsIconSecondaryIcon = #4faad1
     internal static let ydsIconSuccessIcon = #C1DE7F
     internal static let ydsIconWarningIcon = #ceb140
-    internal static let ydsLabel = [object Object]
-    internal static let ydsLabelMedium = [object Object]
-    internal static let ydsParagraph = [object Object]
-    internal static let ydsParagraphBold = [object Object]
-    internal static let ydsParagraphItalic = [object Object]
     internal static let ydsRefColorsBlue100 = #e0f0f7
     internal static let ydsRefColorsBlue200 = #cae5f1
     internal static let ydsRefColorsBlue300 = #b1d9eb

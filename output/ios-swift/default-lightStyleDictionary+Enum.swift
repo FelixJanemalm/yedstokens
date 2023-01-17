@@ -4,43 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 17 Jan 2023 15:30:36 GMT
+// Generated on Tue, 17 Jan 2023 15:43:24 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryEnum {
-    public static let base = 8
-    public static let fontFamiliesCode = Noto Sans Mono
-    public static let fontFamiliesDefault = Noto Sans
-    public static let fontSizesBody = 16
-    public static let fontSizesHLg = 40
-    public static let fontSizesHMd = 32
-    public static let fontSizesHSm = 24
-    public static let fontSizesLabel = 18
-    public static let fontSizesSm = 14.4
-    public static let fontSizesXs = 12
-    public static let fontWeightsBodyBold = 700
-    public static let fontWeightsBodyItalic = Italic
-    public static let fontWeightsBodyMedium = 500
-    public static let fontWeightsBodyRegular = 400
-    public static let fontWeightsHeadingBold = 700
-    public static let fontWeightsHeadingRegular = 400
-    public static let letterSpacingDecreased = -0.48
-    public static let letterSpacingDefault = 0
-    public static let letterSpacingIncreased = 0.096
-    public static let letterSpacingParagraph = 0.12
-    public static let lineHeightsBody = 24
-    public static let lineHeightsHLg = 48
-    public static let lineHeightsHMd = 40
-    public static let lineHeightsHSm = 32
-    public static let lineHeightsLabel = 24
-    public static let lineHeightsSm = 16
-    public static let paragraphSpacingHLg = 24
-    public static let paragraphSpacingHMd = 16
-    public static let rem = 16
-    public static let ydsAside = [object Object]
-    public static let ydsAsideMedium = [object Object]
     public static let ydsBackgroundBg = #ffffff
     public static let ydsBackgroundBgDisabled = #EDF0F2
     public static let ydsBackgroundBgMedium = #F9FAFB
@@ -90,18 +59,7 @@ public enum StyleDictionaryEnum {
     public static let ydsButtonWarningBtn = #a78500
     public static let ydsButtonWarningBtnHover = #c09c0c
     public static let ydsButtonWarningBtnPressed = #846900
-    public static let ydsCode = [object Object]
-    public static let ydsContent = [object Object]
-    public static let ydsContentBold = [object Object]
-    public static let ydsContentItalic = [object Object]
     public static let ydsDesignHotPink30 = #ff00b24d
-    public static let ydsFootnote = [object Object]
-    public static let ydsFootnoteMedium = [object Object]
-    public static let ydsHeadingLg = [object Object]
-    public static let ydsHeadingLgBold = [object Object]
-    public static let ydsHeadingMd = [object Object]
-    public static let ydsHeadingMdBold = [object Object]
-    public static let ydsHeadingSm = [object Object]
     public static let ydsIconDangerIcon = #bf2029
     public static let ydsIconIcon = #939292
     public static let ydsIconIconDisabled = #D8D8D8
@@ -116,11 +74,6 @@ public enum StyleDictionaryEnum {
     public static let ydsIconSecondaryIcon = #0073a5
     public static let ydsIconSuccessIcon = #5C8211
     public static let ydsIconWarningIcon = #a78500
-    public static let ydsLabel = [object Object]
-    public static let ydsLabelMedium = [object Object]
-    public static let ydsParagraph = [object Object]
-    public static let ydsParagraphBold = [object Object]
-    public static let ydsParagraphItalic = [object Object]
     public static let ydsRefColorsBlue100 = #e0f0f7
     public static let ydsRefColorsBlue200 = #cae5f1
     public static let ydsRefColorsBlue300 = #b1d9eb

@@ -1,0 +1,240 @@
+{
+  "yds": {
+    "heading_lg": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.headingRegular}",
+        "lineHeight": "{lineHeights.h-lg}",
+        "fontSize": "{fontSizes.h-lg}",
+        "paragraphSpacing": "{paragraphSpacing.h-lg}",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Largest text on the screen, reserved for short high emphasis text or numerals.",
+      "failedToResolve": true
+    },
+    "heading_lg-bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.headingBold}",
+        "lineHeight": "{lineHeights.h-lg}",
+        "fontSize": "{fontSizes.h-lg}",
+        "paragraphSpacing": "{paragraphSpacing.h-lg}",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Largest text on the screen, reserved for short high emphasis text or numerals.\nBold version is used for the Hero.",
+      "failedToResolve": true
+    },
+    "heading_md": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.h-md}",
+        "fontSize": "{fontSizes.h-md}",
+        "paragraphSpacing": "{paragraphSpacing.h-md}",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Medium emphasis heading that is shorter in length.\n\nExample usage: Div titles.",
+      "failedToResolve": true
+    },
+    "heading_md-bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.headingBold}",
+        "lineHeight": "{lineHeights.h-md}",
+        "fontSize": "{fontSizes.h-md}",
+        "paragraphSpacing": "{paragraphSpacing.h-md}",
+        "letterSpacing": "{letterSpacing.decreased}"
+      },
+      "type": "typography",
+      "description": "Medium emphasis heading that is shorter in length.\n\nExample usage: Div titles.",
+      "failedToResolve": true
+    },
+    "heading_sm": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.h-sm}",
+        "fontSize": "{fontSizes.h-sm}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Medium emphasis text that is shorter in length. Used for some dashboard metrics today(15 Jul 2022).",
+      "failedToResolve": true
+    },
+    "label": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.label}",
+        "fontSize": "{fontSizes.label}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Medium emphasis text for smaller elements. E.g. filled values in text fields.",
+      "failedToResolve": true
+    },
+    "label-medium": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyMedium}",
+        "lineHeight": "{lineHeights.label}",
+        "fontSize": "{fontSizes.label}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Thicker style used for more prominent text on smaller elements such as buttons.",
+      "failedToResolve": true
+    },
+    "paragraph": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.paragraph}"
+      },
+      "type": "typography",
+      "description": "Intended for longer form text. Similar to 'content' style but with higher letter-spacing.\n\nHaving a dedicated style for long form content allows targeted updates e.g. for readability improvements.",
+      "failedToResolve": true
+    },
+    "paragraph-bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyBold}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.paragraph}"
+      },
+      "type": "typography",
+      "description": "Used for emphasising certain text. E.g. a part of a paragraph.\n\nNote: If everything is emphasized, then nothing is emphasized. Bold and italic are fine for short bits of text, but not for long stretches.",
+      "failedToResolve": true
+    },
+    "paragraph-italic": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyItalic}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.paragraph}",
+        "textDecoration": "italic"
+      },
+      "type": "typography",
+      "description": "Use italic for gentle emphasis or to contrast with regular roman text.\n\nNote: If everything is emphasized, then nothing is emphasized.\n\nItalic is somewhat harder to read\nLike all caps, bold and italic are fine for short bits of text, but not for long stretches.\n\nForeign words are sometimes italicized, sometimes not, depending on how common they are. For instance, you would italicize your bête noire and your Weltanschauung, but neither your croissant nor your résumé.",
+      "failedToResolve": true
+    },
+    "content": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Smallest font size with good readability. E.g. used for column headings.\nFor longer form text instead use the \"paragraph\" style with higher(0.12px) letter spacing.",
+      "failedToResolve": true
+    },
+    "content-bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyBold}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "E.g. used for sumary rows\n",
+      "failedToResolve": true
+    },
+    "content-italic": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyItalic}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}",
+        "textDecoration": "italic"
+      },
+      "type": "typography",
+      "description": "Use italic for gentle emphasis or to contrast with regular roman text.\n\nNote: If everything is emphasized, then nothing is emphasized.\n\nItalic is somewhat harder to read\nLike all caps, bold and italic are fine for short bits of text, but not for long stretches.\n\nForeign words are sometimes italicized, sometimes not, depending on how common they are. For instance, you would italicize your bête noire and your Weltanschauung, but neither your croissant nor your résumé.",
+      "failedToResolve": true
+    },
+    "aside": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.sm}",
+        "fontSize": "{fontSizes.sm}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Compact font style with 'ok' readability- used when there's very limited space e.g. used for table cells and in navigation with wrapped labels.",
+      "failedToResolve": true
+    },
+    "aside-medium": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyMedium}",
+        "lineHeight": "{lineHeights.sm}",
+        "fontSize": "{fontSizes.sm}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.default}"
+      },
+      "type": "typography",
+      "description": "Compact but thicker font style used when there's very limited space. E.g. emphasised columns used for identifying rows in a table.",
+      "failedToResolve": true
+    },
+    "footnote": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.sm}",
+        "fontSize": "{fontSizes.xs}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.increased}"
+      },
+      "type": "typography",
+      "description": "Used to provide subtext or helpnotes, only for non-mission critical information. E.g. adding helpful context to cell data in a table.",
+      "failedToResolve": true
+    },
+    "footnote-medium": {
+      "value": {
+        "fontFamily": "{fontFamilies.default}",
+        "fontWeight": "{fontWeights.bodyMedium}",
+        "lineHeight": "{lineHeights.sm}",
+        "fontSize": "{fontSizes.xs}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.increased}"
+      },
+      "type": "typography",
+      "description": "E.g. used for group headings in drop-downs or subtle buttons.",
+      "failedToResolve": true
+    },
+    "code": {
+      "value": {
+        "fontFamily": "{fontFamilies.code}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.body}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "",
+        "letterSpacing": "{letterSpacing.increased}"
+      },
+      "type": "typography",
+      "description": "Used to distinguish code from natural-language text.",
+      "failedToResolve": true
+    }
+  }
+}

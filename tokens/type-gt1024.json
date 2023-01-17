@@ -1,0 +1,132 @@
+{
+  "fontFamilies": {
+    "default": {
+      "value": "Noto Sans",
+      "type": "fontFamilies"
+    },
+    "code": {
+      "value": "Noto Sans Mono",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "h-lg": {
+      "value": 48,
+      "type": "lineHeights"
+    },
+    "h-md": {
+      "value": 40,
+      "type": "lineHeights"
+    },
+    "h-sm": {
+      "value": 32,
+      "type": "lineHeights"
+    },
+    "label": {
+      "value": 24,
+      "type": "lineHeights",
+      "description": "=ceiling(150%,8)"
+    },
+    "body": {
+      "value": 24,
+      "type": "lineHeights",
+      "description": "=ceiling(150%,8)"
+    },
+    "sm": {
+      "value": 16,
+      "type": "lineHeights"
+    }
+  },
+  "letterSpacing": {
+    "default": {
+      "value": 0,
+      "type": "letterSpacing"
+    },
+    "paragraph": {
+      "value": 0.12,
+      "type": "letterSpacing"
+    },
+    "increased": {
+      "value": 0.096,
+      "type": "letterSpacing"
+    },
+    "decreased": {
+      "value": -0.48,
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "h-lg": {
+      "value": 24,
+      "type": "paragraphSpacing"
+    },
+    "h-md": {
+      "value": 16,
+      "type": "paragraphSpacing"
+    }
+  },
+  "fontWeights": {
+    "headingRegular": {
+      "value": 400,
+      "type": "fontWeights"
+    },
+    "headingBold": {
+      "value": 700,
+      "type": "fontWeights"
+    },
+    "bodyRegular": {
+      "value": 400,
+      "type": "fontWeights"
+    },
+    "bodyMedium": {
+      "value": 500,
+      "type": "fontWeights"
+    },
+    "bodyBold": {
+      "value": 700,
+      "type": "fontWeights"
+    },
+    "bodyItalic": {
+      "value": "Italic",
+      "type": "fontWeights"
+    }
+  },
+  "fontSizes": {
+    "h-lg": {
+      "value": 40,
+      "type": "fontSizes"
+    },
+    "h-md": {
+      "value": 32,
+      "type": "fontSizes"
+    },
+    "h-sm": {
+      "value": 24,
+      "type": "fontSizes"
+    },
+    "label": {
+      "value": 18,
+      "type": "fontSizes"
+    },
+    "body": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": 14.4,
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": 12,
+      "type": "fontSizes"
+    }
+  },
+  "base": {
+    "value": 8,
+    "type": "scale seed"
+  },
+  "rem": {
+    "value": 16,
+    "type": "scale seed"
+  }
+}
