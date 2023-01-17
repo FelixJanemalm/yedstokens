@@ -15,7 +15,7 @@ jobs:
       - name: Cleanup data
         run: jq '.record.values' < fetch-api-data-action/input.json > input.json
       - name: rename component attribute containers to make sense for styling classes
-        run: jq 'map(.yds = .yds.text | .yds = .yds.background | del(.yds.background, .yds.text))' input.json
+        run: jq 'map(.yds = .yds.text | .yds = .yds.background' input.json
       - name: Install node
         uses: actions/setup-node@v3
         with:
