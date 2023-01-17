@@ -4,8 +4,8 @@
       "value": {
         "fontFamily": "Noto Sans",
         "fontWeight": 400,
-        "lineHeight": 40,
-        "fontSize": 32,
+        "lineHeight": 48,
+        "fontSize": 40,
         "paragraphSpacing": 24,
         "letterSpacing": 0
       },
@@ -16,8 +16,8 @@
       "value": {
         "fontFamily": "Noto Sans",
         "fontWeight": 700,
-        "lineHeight": 40,
-        "fontSize": 32,
+        "lineHeight": 48,
+        "fontSize": 40,
         "paragraphSpacing": 24,
         "letterSpacing": 0
       },
@@ -28,8 +28,8 @@
       "value": {
         "fontFamily": "Noto Sans",
         "fontWeight": 400,
-        "lineHeight": 32,
-        "fontSize": 24,
+        "lineHeight": 40,
+        "fontSize": 32,
         "paragraphSpacing": 16,
         "letterSpacing": 0
       },
@@ -40,8 +40,8 @@
       "value": {
         "fontFamily": "Noto Sans",
         "fontWeight": 700,
-        "lineHeight": 32,
-        "fontSize": 24,
+        "lineHeight": 40,
+        "fontSize": 32,
         "paragraphSpacing": 16,
         "letterSpacing": -0.48
       },
@@ -53,7 +53,7 @@
         "fontFamily": "Noto Sans",
         "fontWeight": 400,
         "lineHeight": 32,
-        "fontSize": 20,
+        "fontSize": 24,
         "paragraphSpacing": "",
         "letterSpacing": 0
       },
@@ -65,7 +65,7 @@
         "fontFamily": "Noto Sans",
         "fontWeight": 400,
         "lineHeight": 24,
-        "fontSize": 17.008,
+        "fontSize": 18,
         "paragraphSpacing": "",
         "letterSpacing": 0
       },
@@ -77,7 +77,7 @@
         "fontFamily": "Noto Sans",
         "fontWeight": 500,
         "lineHeight": 24,
-        "fontSize": 17.008,
+        "fontSize": 18,
         "paragraphSpacing": "",
         "letterSpacing": 0
       },
@@ -220,43 +220,43 @@
     },
     "text": {
       "text": {
-        "value": "#EDF0F2",
+        "value": "#4A4A4A",
         "type": "color"
       },
       "text-subtle": {
-        "value": "#D8D8D8",
-        "type": "color"
-      },
-      "text-strong": {
-        "value": "#F9FAFB",
-        "type": "color"
-      },
-      "text-disabled": {
         "value": "#6d6d6d",
         "type": "color"
       },
+      "text-strong": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "text-disabled": {
+        "value": "#D8D8D8",
+        "type": "color"
+      },
       "primary-text": {
-        "value": "#E7F2CD",
+        "value": "#5C8211",
         "type": "color"
       },
       "secondary-text": {
-        "value": "#95cce3",
+        "value": "#004461",
         "type": "color"
       },
       "danger-text": {
-        "value": "#e08698",
+        "value": "#bf2029",
         "type": "color"
       },
       "warning-text": {
-        "value": "#ceb140",
+        "value": "#a78500",
         "type": "color"
       },
       "link-text": {
-        "value": "#4faad1",
+        "value": "#0073a5",
         "type": "color"
       },
       "success-text": {
-        "value": "#C1DE7F",
+        "value": "#5C8211",
         "type": "color"
       },
       "link-text--pressed": {
@@ -270,57 +270,57 @@
         "description": "intended to be generated programatically"
       },
       "onPrimary-text": {
-        "value": "#222222",
+        "value": "#ffffff",
         "type": "color"
       },
       "onSecondary-text": {
-        "value": "#222222",
+        "value": "#ffffff",
         "type": "color"
       },
       "text-inverse": {
-        "value": "#222222",
+        "value": "#ffffff",
         "type": "color"
       }
     },
     "background": {
       "bg": {
-        "value": "#222222",
+        "value": "#ffffff",
         "type": "color"
       },
       "bg-medium": {
-        "value": "#333333",
+        "value": "#F9FAFB",
         "type": "color"
       },
       "bg-strong": {
-        "value": "#4A4A4A",
+        "value": "#EDF0F2",
         "type": "color"
       },
       "bg--disabled": {
-        "value": "#4A4A4A",
+        "value": "#EDF0F2",
         "type": "color"
       },
       "primary-bg-tint": {
-        "value": "#314600",
+        "value": "#F3F8E6",
         "type": "color"
       },
       "primary-bg-subtle": {
-        "value": "#537700",
-        "type": "color"
-      },
-      "primary-bg": {
         "value": "#C1DE7F",
         "type": "color"
       },
+      "primary-bg": {
+        "value": "#9aca3c",
+        "type": "color"
+      },
       "secondary-bg-tint": {
-        "value": "#004461",
+        "value": "#f5fafc",
         "type": "color"
       },
       "secondary-bg-subtle": {
-        "value": "#0073a5",
+        "value": "#cae5f1",
         "type": "color"
       },
       "secondary-bg": {
-        "value": "#4faad1",
+        "value": "#0073a5",
         "type": "color"
       },
       "tertiary-bg": {
@@ -328,23 +328,23 @@
         "type": "color"
       },
       "danger-bg-subtle": {
-        "value": "#c92f4e",
+        "value": "#f1c9d1",
         "type": "color"
       },
       "danger-bg": {
-        "value": "#e08698",
+        "value": "#bf2029",
         "type": "color"
       },
       "warning-bg-subtle": {
-        "value": "#a78500",
+        "value": "#e3d393",
         "type": "color"
       },
       "warning-bg": {
-        "value": "#ceb140",
+        "value": "#a78500",
         "type": "color"
       },
       "contrast-bg": {
-        "value": "#e0e1dd",
+        "value": "#3d4133",
         "type": "color"
       },
       "Hero": {
@@ -376,7 +376,7 @@
     },
     "button": {
       "primary-btn": {
-        "value": "#E7F2CD",
+        "value": "#5C8211",
         "type": "color"
       },
       "primary--hover": {
@@ -390,7 +390,7 @@
         "description": "Supposed to be programatically generated"
       },
       "secondary-btn": {
-        "value": "#4faad1",
+        "value": "#0073a5",
         "type": "color"
       },
       "secondary-btn--hover": {
@@ -404,7 +404,7 @@
         "description": "Intended to be generated programatically"
       },
       "danger-btn": {
-        "value": "#e08698",
+        "value": "#bf2029",
         "type": "color"
       },
       "danger-btn--hover": {
@@ -418,7 +418,7 @@
         "description": "Intended to be generated programatically"
       },
       "warning-btn": {
-        "value": "#ceb140",
+        "value": "#a78500",
         "type": "color"
       },
       "warning-btn--hover": {
@@ -436,103 +436,103 @@
         "type": "color"
       },
       "onPrimary-btn--hover": {
-        "value": "#314600",
+        "value": "#F3F8E6",
         "type": "color"
       },
       "btn--disabled": {
-        "value": "#6d6d6d",
+        "value": "#D8D8D8",
         "type": "color"
       }
     },
     "border": {
       "border": {
-        "value": "#6d6d6d",
+        "value": "#D8D8D8",
         "type": "color"
       },
       "border-subtle": {
-        "value": "#4A4A4A",
+        "value": "#EDF0F2",
         "type": "color"
       },
       "primary-border-subtle": {
-        "value": "#537700",
+        "value": "#C1DE7F",
         "type": "color"
       },
       "secondary-border": {
-        "value": "#4faad1",
-        "type": "color"
-      },
-      "secondary-border-subtle": {
         "value": "#0073a5",
         "type": "color"
       },
+      "secondary-border-subtle": {
+        "value": "#cae5f1",
+        "type": "color"
+      },
       "danger-border": {
-        "value": "#e08698",
+        "value": "#bf2029",
         "type": "color"
       },
       "warning-border": {
-        "value": "#ceb140",
+        "value": "#a78500",
         "type": "color"
       },
       "border--focus": {
-        "value": "#C1DE7F",
+        "value": "#9aca3c",
         "type": "color"
       }
     },
     "icon": {
       "icon": {
-        "value": "#bebebe",
+        "value": "#939292",
         "type": "color"
       },
       "icon-strong": {
-        "value": "#EDF0F2",
+        "value": "#4A4A4A",
         "type": "color"
       },
       "primary-icon": {
-        "value": "#C1DE7F",
+        "value": "#84BD00",
         "type": "color"
       },
       "secondary-icon": {
-        "value": "#4faad1",
+        "value": "#0073a5",
         "type": "color"
       },
       "warning-icon": {
-        "value": "#ceb140",
+        "value": "#a78500",
         "type": "color"
       },
       "danger-icon": {
-        "value": "#e08698",
+        "value": "#bf2029",
         "type": "color"
       },
       "info-icon": {
-        "value": "#4faad1",
+        "value": "#0073a5",
         "type": "color"
       },
       "success-icon": {
-        "value": "#C1DE7F",
+        "value": "#5C8211",
         "type": "color"
       },
       "icon--hover": {
-        "value": "#6d6d6d",
+        "value": "#D8D8D8",
         "type": "color"
       },
       "icon--pressed": {
-        "value": "#D8D8D8",
-        "type": "color"
-      },
-      "icon-strong--hover": {
-        "value": "#D8D8D8",
-        "type": "color"
-      },
-      "icon-strong--pressed": {
-        "value": "#F9FAFB",
-        "type": "color"
-      },
-      "icon--disabled": {
         "value": "#6d6d6d",
         "type": "color"
       },
+      "icon-strong--hover": {
+        "value": "#6d6d6d",
+        "type": "color"
+      },
+      "icon-strong--pressed": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "icon--disabled": {
+        "value": "#D8D8D8",
+        "type": "color"
+      },
       "onPrimary-icon": {
-        "value": "#222222",
+        "value": "#ffffff",
         "type": "color"
       }
     },
@@ -565,44 +565,44 @@
       "colors": {
         "primary": {
           "tint": {
-            "value": "#314600",
+            "value": "#F3F8E6",
             "type": "color"
           },
           "subtle": {
-            "value": "#537700",
+            "value": "#C1DE7F",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#C1DE7F",
+            "value": "#9aca3c",
             "type": "color"
           },
           "medium": {
-            "value": "#C1DE7F",
+            "value": "#84BD00",
             "type": "color",
             "description": "Slightly darker bg used for small backgrounds"
           },
           "strong": {
-            "value": "#E7F2CD",
+            "value": "#5C8211",
             "type": "color"
           }
         },
         "secondary": {
           "tint": {
-            "value": "#004461",
+            "value": "#f5fafc",
             "type": "color"
           },
           "subtle": {
-            "value": "#0073a5",
+            "value": "#cae5f1",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#4faad1",
+            "value": "#0073a5",
             "type": "color"
           },
           "strong": {
-            "value": "#95cce3",
+            "value": "#004461",
             "type": "color"
           }
         },
@@ -614,89 +614,89 @@
         },
         "success": {
           "subtle": {
-            "value": "#537700",
+            "value": "#C1DE7F",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#C1DE7F",
+            "value": "#5C8211",
             "type": "color"
           }
         },
         "info": {
           "subtle": {
-            "value": "#0073a5",
+            "value": "#cae5f1",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#4faad1",
+            "value": "#0073a5",
             "type": "color"
           }
         },
         "danger": {
           "subtle": {
-            "value": "#c92f4e",
+            "value": "#f1c9d1",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#e08698",
+            "value": "#bf2029",
             "type": "color"
           }
         },
         "warning": {
           "subtle": {
-            "value": "#a78500",
+            "value": "#e3d393",
             "type": "color",
             "description": "Only used on ecom (do we need this?)"
           },
           "default": {
-            "value": "#ceb140",
+            "value": "#a78500",
             "type": "color"
           }
         },
         "neutral": {
           "0": {
-            "value": "#222222",
+            "value": "#ffffff",
             "type": "color"
           },
           "1": {
-            "value": "#333333",
+            "value": "#F9FAFB",
             "type": "color"
           },
           "2": {
-            "value": "#4A4A4A",
-            "type": "color"
-          },
-          "3": {
-            "value": "#6d6d6d",
-            "type": "color"
-          },
-          "4": {
-            "value": "#bebebe",
-            "type": "color"
-          },
-          "5": {
-            "value": "#D8D8D8",
-            "type": "color"
-          },
-          "6": {
             "value": "#EDF0F2",
             "type": "color"
           },
+          "3": {
+            "value": "#D8D8D8",
+            "type": "color"
+          },
+          "4": {
+            "value": "#939292",
+            "type": "color"
+          },
+          "5": {
+            "value": "#6d6d6d",
+            "type": "color"
+          },
+          "6": {
+            "value": "#4A4A4A",
+            "type": "color"
+          },
           "7": {
-            "value": "#F9FAFB",
+            "value": "#333333",
             "type": "color"
           }
         },
         "neutral alt": {
           "6": {
-            "value": "#d2d4cd",
+            "value": "#686f59",
             "type": "color"
           },
           "7": {
-            "value": "#e0e1dd",
+            "value": "#3d4133",
             "type": "color"
           }
         },
@@ -1366,11 +1366,11 @@
   },
   "lineHeights": {
     "h-lg": {
-      "value": 40,
+      "value": 48,
       "type": "lineHeights"
     },
     "h-md": {
-      "value": 32,
+      "value": 40,
       "type": "lineHeights"
     },
     "h-sm": {
@@ -1448,19 +1448,19 @@
   },
   "fontSizes": {
     "h-lg": {
-      "value": 32,
+      "value": 40,
       "type": "fontSizes"
     },
     "h-md": {
-      "value": 24,
+      "value": 32,
       "type": "fontSizes"
     },
     "h-sm": {
-      "value": 20,
+      "value": 24,
       "type": "fontSizes"
     },
     "label": {
-      "value": 17.008,
+      "value": 18,
       "type": "fontSizes"
     },
     "body": {

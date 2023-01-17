@@ -1,10 +1,10 @@
 
 //
-// StyleDictionary+Struct.swift
+// default-darkStyleDictionary+Struct.swift
 //
 
 // Do not edit directly
-// Generated on Mon, 16 Jan 2023 14:36:13 GMT
+// Generated on Tue, 17 Jan 2023 14:16:40 GMT
 
 
 import UIKit
@@ -14,10 +14,10 @@ internal struct StyleDictionaryStruct {
     internal static let fontFamiliesCode = Noto Sans Mono
     internal static let fontFamiliesDefault = Noto Sans
     internal static let fontSizesBody = 16
-    internal static let fontSizesHLg = 32
-    internal static let fontSizesHMd = 24
-    internal static let fontSizesHSm = 20
-    internal static let fontSizesLabel = 17.008
+    internal static let fontSizesHLg = 40
+    internal static let fontSizesHMd = 32
+    internal static let fontSizesHSm = 24
+    internal static let fontSizesLabel = 18
     internal static let fontSizesSm = 14.4
     internal static let fontSizesXs = 12
     internal static let fontWeightsBodyBold = 700
@@ -31,8 +31,8 @@ internal struct StyleDictionaryStruct {
     internal static let letterSpacingIncreased = 0.096
     internal static let letterSpacingParagraph = 0.12
     internal static let lineHeightsBody = 24
-    internal static let lineHeightsHLg = 40
-    internal static let lineHeightsHMd = 32
+    internal static let lineHeightsHLg = 48
+    internal static let lineHeightsHMd = 40
     internal static let lineHeightsHSm = 32
     internal static let lineHeightsLabel = 24
     internal static let lineHeightsSm = 16

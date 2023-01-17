@@ -1,23 +1,23 @@
 
 //
-// StyleDictionary+Enum.swift
+// default-darkStyleDictionary+Class.swift
 //
 
 // Do not edit directly
-// Generated on Mon, 16 Jan 2023 14:36:13 GMT
+// Generated on Tue, 17 Jan 2023 14:16:40 GMT
 
 
 import UIKit
 
-public enum StyleDictionaryEnum {
+public class StyleDictionaryClass {
     public static let base = 8
     public static let fontFamiliesCode = Noto Sans Mono
     public static let fontFamiliesDefault = Noto Sans
     public static let fontSizesBody = 16
-    public static let fontSizesHLg = 32
-    public static let fontSizesHMd = 24
-    public static let fontSizesHSm = 20
-    public static let fontSizesLabel = 17.008
+    public static let fontSizesHLg = 40
+    public static let fontSizesHMd = 32
+    public static let fontSizesHSm = 24
+    public static let fontSizesLabel = 18
     public static let fontSizesSm = 14.4
     public static let fontSizesXs = 12
     public static let fontWeightsBodyBold = 700
@@ -31,8 +31,8 @@ public enum StyleDictionaryEnum {
     public static let letterSpacingIncreased = 0.096
     public static let letterSpacingParagraph = 0.12
     public static let lineHeightsBody = 24
-    public static let lineHeightsHLg = 40
-    public static let lineHeightsHMd = 32
+    public static let lineHeightsHLg = 48
+    public static let lineHeightsHMd = 40
     public static let lineHeightsHSm = 32
     public static let lineHeightsLabel = 24
     public static let lineHeightsSm = 16

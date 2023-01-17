@@ -1,0 +1,7 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "output/css/default-light.css";
+@import "output/css/default-dark.css";
+
+@import "tailwindcss/utilities";
