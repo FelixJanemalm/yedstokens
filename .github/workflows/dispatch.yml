@@ -15,7 +15,7 @@ jobs:
       - name: Cleanup data
         run: jq '.record.values' < fetch-api-data-action/input.json > fetch-api-data-action/output.json
       - name: Refactor array names
-        run: jq ' .sys-default-light.yds |= map_values(walk(if type == "object" then .color = . else . end) | del(.. | objects | select(has("color")) | .color?))' < fetch-api-data-action/output.json > input.json
+        run: jq '.record.values.sys-default-light.yds |= map_values(walk(if type == "object" then .color = . else . end) | del(.. | objects | select(has("color")) | .color?))' < fetch-api-data-action/output.json > input.json
       - name: Install node
         uses: actions/setup-node@v3
         with:
