@@ -1360,7 +1360,7 @@
   },
   "usage-colors": {
     "yds": {
-      "color": {
+      "text": {
         "text": {
           "value": "{yds.sys.colors.neutral.6}",
           "type": "color"
@@ -1422,7 +1422,9 @@
         "text-inverse": {
           "value": "{yds.sys.colors.neutral.0}",
           "type": "color"
-        },
+        }
+      },
+      "background": {
         "bg": {
           "value": "{yds.sys.colors.neutral.0}",
           "type": "color"
@@ -1512,7 +1514,9 @@
             "value": "#3c72b1",
             "type": "color"
           }
-        },
+        }
+      },
+      "button": {
         "primary-btn": {
           "value": "{yds.sys.colors.primary.strong}",
           "type": "color"
@@ -1580,7 +1584,9 @@
         "btn--disabled": {
           "value": "{yds.sys.colors.neutral.3}",
           "type": "color"
-        },
+        }
+      },
+      "border": {
         "border": {
           "value": "{yds.sys.colors.neutral.3}",
           "type": "color"
@@ -1612,7 +1618,9 @@
         "border--focus": {
           "value": "{yds.sys.colors.primary.default}",
           "type": "color"
-        },
+        }
+      },
+      "icon": {
         "icon": {
           "value": "{yds.sys.colors.neutral.4}",
           "type": "color"
@@ -1668,7 +1676,9 @@
         "onPrimary-icon": {
           "value": "{yds.sys.colors.neutral.0}",
           "type": "color"
-        },
+        }
+      },
+      "brand": {
         "yubiGreen": {
           "value": "{yds.sys.colors.brand.yubiGreen}",
           "type": "color"
@@ -1684,7 +1694,9 @@
         "yubiRed": {
           "value": "{yds.sys.colors.brand.yubiRed}",
           "type": "color"
-        },
+        }
+      },
+      "design": {
         "hotPink-30%": {
           "value": "#ff00b24d",
           "type": "color",
