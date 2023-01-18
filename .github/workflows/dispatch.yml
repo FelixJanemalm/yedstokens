@@ -15,7 +15,7 @@ jobs:
       - name: Cleanup data
         run: jq '.record.values' < fetch-api-data-action/input.json > fetch-api-data-action/output.json
       - name: Refactor array names
-        run: jq '{colors:."usage-colors".yds.text} | del(."usage-colors".yds.colors[]."_type", ."usage-colors".yds.colors[]."__eid")' < fetch-api-data-action/output.json > input.json
+        run: jq '."usage-colors".yds. |= "colors"' < fetch-api-data-action/output.json > input.json
       - name: Install node
         uses: actions/setup-node@v3
         with:
