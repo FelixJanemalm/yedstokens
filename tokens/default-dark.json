@@ -332,7 +332,7 @@
       }
     },
     "sys": {
-      "colors": {
+      "color": {
         "primary": {
           "tint": {
             "value": "#314600",
@@ -491,7 +491,7 @@
       }
     },
     "ref": {
-      "colors": {
+      "color": {
         "Y-book": {
           "yubiGreen": {
             "value": "#9aca3c",

@@ -2,7 +2,7 @@
   "Ref": {
     "yds": {
       "ref": {
-        "colors": {
+        "color": {
           "Y-book": {
             "yubiGreen": {
               "value": "#9aca3c",
@@ -639,159 +639,159 @@
   "sys-default-light": {
     "yds": {
       "sys": {
-        "colors": {
+        "color": {
           "primary": {
             "tint": {
-              "value": "{yds.ref.colors.lime.50}",
+              "value": "{yds.ref.color.lime.50}",
               "type": "color"
             },
             "subtle": {
-              "value": "{yds.ref.colors.lime.300}",
+              "value": "{yds.ref.color.lime.300}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.lime.450}",
+              "value": "{yds.ref.color.lime.450}",
               "type": "color"
             },
             "medium": {
-              "value": "{yds.ref.colors.lime.550}",
+              "value": "{yds.ref.color.lime.550}",
               "type": "color",
               "description": "Slightly darker bg used for small backgrounds"
             },
             "strong": {
-              "value": "{yds.ref.colors.lime.750}",
+              "value": "{yds.ref.color.lime.750}",
               "type": "color"
             }
           },
           "secondary": {
             "tint": {
-              "value": "{yds.ref.colors.blue.50}",
+              "value": "{yds.ref.color.blue.50}",
               "type": "color"
             },
             "subtle": {
-              "value": "{yds.ref.colors.blue.200}",
+              "value": "{yds.ref.color.blue.200}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.blue.800}",
+              "value": "{yds.ref.color.blue.800}",
               "type": "color"
             },
             "strong": {
-              "value": "{yds.ref.colors.blue.900}",
+              "value": "{yds.ref.color.blue.900}",
               "type": "color"
             }
           },
           "tertiary": {
             "strong": {
-              "value": "{yds.ref.colors.creative.newDarkTeal}",
+              "value": "{yds.ref.color.creative.newDarkTeal}",
               "type": "color"
             }
           },
           "success": {
             "subtle": {
-              "value": "{yds.ref.colors.lime.300}",
+              "value": "{yds.ref.color.lime.300}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.lime.750}",
+              "value": "{yds.ref.color.lime.750}",
               "type": "color"
             }
           },
           "info": {
             "subtle": {
-              "value": "{yds.ref.colors.blue.200}",
+              "value": "{yds.ref.color.blue.200}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.blue.800}",
+              "value": "{yds.ref.color.blue.800}",
               "type": "color"
             }
           },
           "danger": {
             "subtle": {
-              "value": "{yds.ref.colors.red.300}",
+              "value": "{yds.ref.color.red.300}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.Y-book.yubiRed}",
+              "value": "{yds.ref.color.Y-book.yubiRed}",
               "type": "color"
             }
           },
           "warning": {
             "subtle": {
-              "value": "{yds.ref.colors.yellow.300}",
+              "value": "{yds.ref.color.yellow.300}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.yellow.700}",
+              "value": "{yds.ref.color.yellow.700}",
               "type": "color"
             }
           },
           "neutral": {
             "0": {
-              "value": "{yds.ref.colors.neutral.white}",
+              "value": "{yds.ref.color.neutral.white}",
               "type": "color"
             },
             "1": {
-              "value": "{yds.ref.colors.neutral.50}",
+              "value": "{yds.ref.color.neutral.50}",
               "type": "color"
             },
             "2": {
-              "value": "{yds.ref.colors.neutral.100}",
+              "value": "{yds.ref.color.neutral.100}",
               "type": "color"
             },
             "3": {
-              "value": "{yds.ref.colors.neutral.300}",
+              "value": "{yds.ref.color.neutral.300}",
               "type": "color"
             },
             "4": {
-              "value": "{yds.ref.colors.neutral.600}",
+              "value": "{yds.ref.color.neutral.600}",
               "type": "color"
             },
             "5": {
-              "value": "{yds.ref.colors.neutral.700}",
+              "value": "{yds.ref.color.neutral.700}",
               "type": "color"
             },
             "6": {
-              "value": "{yds.ref.colors.neutral.800}",
+              "value": "{yds.ref.color.neutral.800}",
               "type": "color"
             },
             "7": {
-              "value": "{yds.ref.colors.neutral.900}",
+              "value": "{yds.ref.color.neutral.900}",
               "type": "color"
             }
           },
           "neutral alt": {
             "6": {
-              "value": "{yds.ref.colors.warmGray.800}",
+              "value": "{yds.ref.color.warmGray.800}",
               "type": "color"
             },
             "7": {
-              "value": "{yds.ref.colors.warmGray.900}",
+              "value": "{yds.ref.color.warmGray.900}",
               "type": "color"
             }
           },
           "brand": {
             "yubiGreen": {
-              "value": "{yds.ref.colors.Y-book.yubiGreen}",
+              "value": "{yds.ref.color.Y-book.yubiGreen}",
               "type": "color"
             },
             "yubiBlue": {
-              "value": "{yds.ref.colors.Y-book.yubiBlue}",
+              "value": "{yds.ref.color.Y-book.yubiBlue}",
               "type": "color"
             },
             "yubiGold": {
-              "value": "{yds.ref.colors.Y-book.yubiGold}",
+              "value": "{yds.ref.color.Y-book.yubiGold}",
               "type": "color"
             },
             "yubiRed": {
-              "value": "{yds.ref.colors.Y-book.yubiRed}",
+              "value": "{yds.ref.color.Y-book.yubiRed}",
               "type": "color"
             }
           }
@@ -802,159 +802,159 @@
   "sys-default-dark": {
     "yds": {
       "sys": {
-        "colors": {
+        "color": {
           "primary": {
             "tint": {
-              "value": "{yds.ref.colors.lime.900}",
+              "value": "{yds.ref.color.lime.900}",
               "type": "color"
             },
             "subtle": {
-              "value": "{yds.ref.colors.lime.800}",
+              "value": "{yds.ref.color.lime.800}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.lime.300}",
+              "value": "{yds.ref.color.lime.300}",
               "type": "color"
             },
             "medium": {
-              "value": "{yds.ref.colors.lime.300}",
+              "value": "{yds.ref.color.lime.300}",
               "type": "color",
               "description": "Slightly darker bg used for small backgrounds"
             },
             "strong": {
-              "value": "{yds.ref.colors.lime.100}",
+              "value": "{yds.ref.color.lime.100}",
               "type": "color"
             }
           },
           "secondary": {
             "tint": {
-              "value": "{yds.ref.colors.blue.900}",
+              "value": "{yds.ref.color.blue.900}",
               "type": "color"
             },
             "subtle": {
-              "value": "{yds.ref.colors.blue.800}",
+              "value": "{yds.ref.color.blue.800}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.blue.600}",
+              "value": "{yds.ref.color.blue.600}",
               "type": "color"
             },
             "strong": {
-              "value": "{yds.ref.colors.blue.400}",
+              "value": "{yds.ref.color.blue.400}",
               "type": "color"
             }
           },
           "tertiary": {
             "strong": {
-              "value": "{yds.ref.colors.creative.newDarkTeal}",
+              "value": "{yds.ref.color.creative.newDarkTeal}",
               "type": "color"
             }
           },
           "success": {
             "subtle": {
-              "value": "{yds.ref.colors.lime.800}",
+              "value": "{yds.ref.color.lime.800}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.lime.300}",
+              "value": "{yds.ref.color.lime.300}",
               "type": "color"
             }
           },
           "info": {
             "subtle": {
-              "value": "{yds.ref.colors.blue.800}",
+              "value": "{yds.ref.color.blue.800}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.blue.600}",
+              "value": "{yds.ref.color.blue.600}",
               "type": "color"
             }
           },
           "danger": {
             "subtle": {
-              "value": "{yds.ref.colors.red.800}",
+              "value": "{yds.ref.color.red.800}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.red.600}",
+              "value": "{yds.ref.color.red.600}",
               "type": "color"
             }
           },
           "warning": {
             "subtle": {
-              "value": "{yds.ref.colors.yellow.700}",
+              "value": "{yds.ref.color.yellow.700}",
               "type": "color",
               "description": "Only used on ecom (do we need this?)"
             },
             "default": {
-              "value": "{yds.ref.colors.yellow.500}",
+              "value": "{yds.ref.color.yellow.500}",
               "type": "color"
             }
           },
           "neutral": {
             "0": {
-              "value": "{yds.ref.colors.neutral.1000}",
+              "value": "{yds.ref.color.neutral.1000}",
               "type": "color"
             },
             "1": {
-              "value": "{yds.ref.colors.neutral.900}",
+              "value": "{yds.ref.color.neutral.900}",
               "type": "color"
             },
             "2": {
-              "value": "{yds.ref.colors.neutral.800}",
+              "value": "{yds.ref.color.neutral.800}",
               "type": "color"
             },
             "3": {
-              "value": "{yds.ref.colors.neutral.700}",
+              "value": "{yds.ref.color.neutral.700}",
               "type": "color"
             },
             "4": {
-              "value": "{yds.ref.colors.neutral.500}",
+              "value": "{yds.ref.color.neutral.500}",
               "type": "color"
             },
             "5": {
-              "value": "{yds.ref.colors.neutral.300}",
+              "value": "{yds.ref.color.neutral.300}",
               "type": "color"
             },
             "6": {
-              "value": "{yds.ref.colors.neutral.100}",
+              "value": "{yds.ref.color.neutral.100}",
               "type": "color"
             },
             "7": {
-              "value": "{yds.ref.colors.neutral.50}",
+              "value": "{yds.ref.color.neutral.50}",
               "type": "color"
             }
           },
           "neutral alt": {
             "6": {
-              "value": "{yds.ref.colors.warmGray.300}",
+              "value": "{yds.ref.color.warmGray.300}",
               "type": "color"
             },
             "7": {
-              "value": "{yds.ref.colors.warmGray.200}",
+              "value": "{yds.ref.color.warmGray.200}",
               "type": "color"
             }
           },
           "brand": {
             "yubiGreen": {
-              "value": "{yds.ref.colors.Y-book.yubiGreen}",
+              "value": "{yds.ref.color.Y-book.yubiGreen}",
               "type": "color"
             },
             "yubiBlue": {
-              "value": "{yds.ref.colors.Y-book.yubiBlue}",
+              "value": "{yds.ref.color.Y-book.yubiBlue}",
               "type": "color"
             },
             "yubiGold": {
-              "value": "{yds.ref.colors.Y-book.yubiGold}",
+              "value": "{yds.ref.color.Y-book.yubiGold}",
               "type": "color"
             },
             "yubiRed": {
-              "value": "{yds.ref.colors.Y-book.yubiRed}",
+              "value": "{yds.ref.color.Y-book.yubiRed}",
               "type": "color"
             }
           }
@@ -1362,43 +1362,43 @@
     "yds": {
       "text": {
         "text": {
-          "value": "{yds.sys.colors.neutral.6}",
+          "value": "{yds.sys.color.neutral.6}",
           "type": "color"
         },
         "text-subtle": {
-          "value": "{yds.sys.colors.neutral.5}",
+          "value": "{yds.sys.color.neutral.5}",
           "type": "color"
         },
         "text-strong": {
-          "value": "{yds.sys.colors.neutral.7}",
+          "value": "{yds.sys.color.neutral.7}",
           "type": "color"
         },
         "text-disabled": {
-          "value": "{yds.sys.colors.neutral.3}",
+          "value": "{yds.sys.color.neutral.3}",
           "type": "color"
         },
         "primary-text": {
-          "value": "{yds.sys.colors.primary.strong}",
+          "value": "{yds.sys.color.primary.strong}",
           "type": "color"
         },
         "secondary-text": {
-          "value": "{yds.sys.colors.secondary.strong}",
+          "value": "{yds.sys.color.secondary.strong}",
           "type": "color"
         },
         "danger-text": {
-          "value": "{yds.sys.colors.danger.default}",
+          "value": "{yds.sys.color.danger.default}",
           "type": "color"
         },
         "warning-text": {
-          "value": "{yds.sys.colors.warning.default}",
+          "value": "{yds.sys.color.warning.default}",
           "type": "color"
         },
         "link-text": {
-          "value": "{yds.sys.colors.info.default}",
+          "value": "{yds.sys.color.info.default}",
           "type": "color"
         },
         "success-text": {
-          "value": "{yds.sys.colors.success.default}",
+          "value": "{yds.sys.color.success.default}",
           "type": "color"
         },
         "link-text--pressed": {
@@ -1412,81 +1412,81 @@
           "description": "intended to be generated programatically"
         },
         "onPrimary-text": {
-          "value": "{yds.sys.colors.neutral.0}",
+          "value": "{yds.sys.color.neutral.0}",
           "type": "color"
         },
         "onSecondary-text": {
-          "value": "{yds.sys.colors.neutral.0}",
+          "value": "{yds.sys.color.neutral.0}",
           "type": "color"
         },
         "text-inverse": {
-          "value": "{yds.sys.colors.neutral.0}",
+          "value": "{yds.sys.color.neutral.0}",
           "type": "color"
         }
       },
       "background": {
         "bg": {
-          "value": "{yds.sys.colors.neutral.0}",
+          "value": "{yds.sys.color.neutral.0}",
           "type": "color"
         },
         "bg-medium": {
-          "value": "{yds.sys.colors.neutral.1}",
+          "value": "{yds.sys.color.neutral.1}",
           "type": "color"
         },
         "bg-strong": {
-          "value": "{yds.sys.colors.neutral.2}",
+          "value": "{yds.sys.color.neutral.2}",
           "type": "color"
         },
         "bg--disabled": {
-          "value": "{yds.sys.colors.neutral.2}",
+          "value": "{yds.sys.color.neutral.2}",
           "type": "color"
         },
         "primary-bg-tint": {
-          "value": "{yds.sys.colors.primary.tint}",
+          "value": "{yds.sys.color.primary.tint}",
           "type": "color"
         },
         "primary-bg-subtle": {
-          "value": "{yds.sys.colors.primary.subtle}",
+          "value": "{yds.sys.color.primary.subtle}",
           "type": "color"
         },
         "primary-bg": {
-          "value": "{yds.sys.colors.primary.default}",
+          "value": "{yds.sys.color.primary.default}",
           "type": "color"
         },
         "secondary-bg-tint": {
-          "value": "{yds.sys.colors.secondary.tint}",
+          "value": "{yds.sys.color.secondary.tint}",
           "type": "color"
         },
         "secondary-bg-subtle": {
-          "value": "{yds.sys.colors.secondary.subtle}",
+          "value": "{yds.sys.color.secondary.subtle}",
           "type": "color"
         },
         "secondary-bg": {
-          "value": "{yds.sys.colors.secondary.default}",
+          "value": "{yds.sys.color.secondary.default}",
           "type": "color"
         },
         "tertiary-bg": {
-          "value": "{yds.sys.colors.tertiary.strong}",
+          "value": "{yds.sys.color.tertiary.strong}",
           "type": "color"
         },
         "danger-bg-subtle": {
-          "value": "{yds.sys.colors.danger.subtle}",
+          "value": "{yds.sys.color.danger.subtle}",
           "type": "color"
         },
         "danger-bg": {
-          "value": "{yds.sys.colors.danger.default}",
+          "value": "{yds.sys.color.danger.default}",
           "type": "color"
         },
         "warning-bg-subtle": {
-          "value": "{yds.sys.colors.warning.subtle}",
+          "value": "{yds.sys.color.warning.subtle}",
           "type": "color"
         },
         "warning-bg": {
-          "value": "{yds.sys.colors.warning.default}",
+          "value": "{yds.sys.color.warning.default}",
           "type": "color"
         },
         "contrast-bg": {
-          "value": "{yds.sys.colors.neutral alt.7}",
+          "value": "{yds.sys.color.neutral alt.7}",
           "type": "color"
         },
         "Hero": {
@@ -1518,7 +1518,7 @@
       },
       "button": {
         "primary-btn": {
-          "value": "{yds.sys.colors.primary.strong}",
+          "value": "{yds.sys.color.primary.strong}",
           "type": "color"
         },
         "primary--hover": {
@@ -1532,7 +1532,7 @@
           "description": "Supposed to be programatically generated"
         },
         "secondary-btn": {
-          "value": "{yds.sys.colors.secondary.default}",
+          "value": "{yds.sys.color.secondary.default}",
           "type": "color"
         },
         "secondary-btn--hover": {
@@ -1546,7 +1546,7 @@
           "description": "Intended to be generated programatically"
         },
         "danger-btn": {
-          "value": "{yds.sys.colors.danger.default}",
+          "value": "{yds.sys.color.danger.default}",
           "type": "color"
         },
         "danger-btn--hover": {
@@ -1560,7 +1560,7 @@
           "description": "Intended to be generated programatically"
         },
         "warning-btn": {
-          "value": "{yds.sys.colors.warning.default}",
+          "value": "{yds.sys.color.warning.default}",
           "type": "color"
         },
         "warning-btn--hover": {
@@ -1574,125 +1574,125 @@
           "description": "Intended to be generated programatically"
         },
         "onPrimary-btn": {
-          "value": "{yds.ref.colors.neutral.white}",
+          "value": "{yds.ref.color.neutral.white}",
           "type": "color"
         },
         "onPrimary-btn--hover": {
-          "value": "{yds.sys.colors.primary.tint}",
+          "value": "{yds.sys.color.primary.tint}",
           "type": "color"
         },
         "btn--disabled": {
-          "value": "{yds.sys.colors.neutral.3}",
+          "value": "{yds.sys.color.neutral.3}",
           "type": "color"
         }
       },
       "border": {
         "border": {
-          "value": "{yds.sys.colors.neutral.3}",
+          "value": "{yds.sys.color.neutral.3}",
           "type": "color"
         },
         "border-subtle": {
-          "value": "{yds.sys.colors.neutral.2}",
+          "value": "{yds.sys.color.neutral.2}",
           "type": "color"
         },
         "primary-border-subtle": {
-          "value": "{yds.sys.colors.primary.subtle}",
+          "value": "{yds.sys.color.primary.subtle}",
           "type": "color"
         },
         "secondary-border": {
-          "value": "{yds.sys.colors.secondary.default}",
+          "value": "{yds.sys.color.secondary.default}",
           "type": "color"
         },
         "secondary-border-subtle": {
-          "value": "{yds.sys.colors.secondary.subtle}",
+          "value": "{yds.sys.color.secondary.subtle}",
           "type": "color"
         },
         "danger-border": {
-          "value": "{yds.sys.colors.danger.default}",
+          "value": "{yds.sys.color.danger.default}",
           "type": "color"
         },
         "warning-border": {
-          "value": "{yds.sys.colors.warning.default}",
+          "value": "{yds.sys.color.warning.default}",
           "type": "color"
         },
         "border--focus": {
-          "value": "{yds.sys.colors.primary.default}",
+          "value": "{yds.sys.color.primary.default}",
           "type": "color"
         }
       },
       "icon": {
         "icon": {
-          "value": "{yds.sys.colors.neutral.4}",
+          "value": "{yds.sys.color.neutral.4}",
           "type": "color"
         },
         "icon-strong": {
-          "value": "{yds.sys.colors.neutral.6}",
+          "value": "{yds.sys.color.neutral.6}",
           "type": "color"
         },
         "primary-icon": {
-          "value": "{yds.sys.colors.primary.medium}",
+          "value": "{yds.sys.color.primary.medium}",
           "type": "color"
         },
         "secondary-icon": {
-          "value": "{yds.sys.colors.secondary.default}",
+          "value": "{yds.sys.color.secondary.default}",
           "type": "color"
         },
         "warning-icon": {
-          "value": "{yds.sys.colors.warning.default}",
+          "value": "{yds.sys.color.warning.default}",
           "type": "color"
         },
         "danger-icon": {
-          "value": "{yds.sys.colors.danger.default}",
+          "value": "{yds.sys.color.danger.default}",
           "type": "color"
         },
         "info-icon": {
-          "value": "{yds.sys.colors.info.default}",
+          "value": "{yds.sys.color.info.default}",
           "type": "color"
         },
         "success-icon": {
-          "value": "{yds.sys.colors.success.default}",
+          "value": "{yds.sys.color.success.default}",
           "type": "color"
         },
         "icon--hover": {
-          "value": "{yds.sys.colors.neutral.3}",
+          "value": "{yds.sys.color.neutral.3}",
           "type": "color"
         },
         "icon--pressed": {
-          "value": "{yds.sys.colors.neutral.5}",
+          "value": "{yds.sys.color.neutral.5}",
           "type": "color"
         },
         "icon-strong--hover": {
-          "value": "{yds.sys.colors.neutral.5}",
+          "value": "{yds.sys.color.neutral.5}",
           "type": "color"
         },
         "icon-strong--pressed": {
-          "value": "{yds.sys.colors.neutral.7}",
+          "value": "{yds.sys.color.neutral.7}",
           "type": "color"
         },
         "icon--disabled": {
-          "value": "{yds.sys.colors.neutral.3}",
+          "value": "{yds.sys.color.neutral.3}",
           "type": "color"
         },
         "onPrimary-icon": {
-          "value": "{yds.sys.colors.neutral.0}",
+          "value": "{yds.sys.color.neutral.0}",
           "type": "color"
         }
       },
       "brand": {
         "yubiGreen": {
-          "value": "{yds.sys.colors.brand.yubiGreen}",
+          "value": "{yds.sys.color.brand.yubiGreen}",
           "type": "color"
         },
         "yubiBlue": {
-          "value": "{yds.ref.colors.Y-book.yubiBlue}",
+          "value": "{yds.ref.color.Y-book.yubiBlue}",
           "type": "color"
         },
         "yubiGold": {
-          "value": "{yds.sys.colors.brand.yubiGold}",
+          "value": "{yds.sys.color.brand.yubiGold}",
           "type": "color"
         },
         "yubiRed": {
-          "value": "{yds.sys.colors.brand.yubiRed}",
+          "value": "{yds.sys.color.brand.yubiRed}",
           "type": "color"
         }
       },
